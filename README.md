@@ -35,7 +35,7 @@ The following steps are to test code with Curl:
 ### Submits a validation request
 
 1. Open a command prompt or shell terminal.
-2. Enter the following request command by submitting a validation request to an API endpoint:
+2. Enter the following request command by submitting a validation request to an API endpoint (replace the address value to your own Electrum wallet address):
 ```
 curl -X POST \
   http://localhost:8000/requestValidation \
