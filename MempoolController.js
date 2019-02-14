@@ -6,7 +6,6 @@ class MempoolController {
         this.blocks = blockchainObj;
         this.mempool = mempoolObj;
         this.requestValidation();
-        this.searchRequestValidation();
         this.validataSignature();
 	}
 
