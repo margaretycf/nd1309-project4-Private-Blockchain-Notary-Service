@@ -65,7 +65,7 @@ curl -X POST \
 ### Send star data to be stored 
 
 1. Open a command prompt or shell terminal.
-2. Enter the following request command to submit the Star information to be saved in the Blockchain(escape "68° 52' 56.9"  to "68° 52'\'' 56.9"):
+2. Enter the following request command to submit the Star information to be saved in the Blockchain(escape ```"68° 52' 56.9"```  to ```"68° 52'\'' 56.9")```:
 ```
 curl -X POST \
   http://localhost:8000/block \

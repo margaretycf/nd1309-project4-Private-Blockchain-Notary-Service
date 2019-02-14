@@ -61,7 +61,7 @@ class Mempool {
 
 	removeValidRequest(address) {
     	this.mempoolValid = this.mempoolValid.filter(mem => {
-    		return mem.status.walletAddress != address;
+    		return mem.status.address != address;
     	});
 		delete this.timeoutMempoolValid[address];
 	}

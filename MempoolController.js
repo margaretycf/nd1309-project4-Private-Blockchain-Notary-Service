@@ -27,10 +27,6 @@ class MempoolController {
         });
     }
 
-    searchRequestValidation() {
-
-    }
-
     validataSignature() {
     	this.app.post("/message-signature/validate", (req, res) => {
     		if (req.body.address && req.body.signature) {
